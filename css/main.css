@@ -1,0 +1,18 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1.5;
+	color:#333;
+	overflow-x: hidden;
+}
+
+.header{
+	height: 100vh;/*100 del tamaño de pantalla dedispositivo*/
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
