@@ -18,8 +18,8 @@ body{
 }
 
 .content{
-	max-width: 49ren;  /*para que este centrado el contendio*/
-	pandding-left:1rem;
+	max-width: 49rem;  /*para que este centrado el contendio*/
+	padding-left: 1rem;
 	padding-right: 1rem;
 	margin: auto;
 	text-align: center;
@@ -46,7 +46,7 @@ body{
 	left: 0;
 	background: #E7D1B6;
 	z-index: 1;
-	opacity: .85;
+	opacity: .55;
 }
 
 .header-content{/*capa contenido*/
@@ -70,6 +70,12 @@ body{
 	color: #fff;
 	font-size: 1.2rem;
 	padding: 1rem 2rem;
-	text-decoration:
+	text-decoration: none;
 
+}
+
+@@media (max-width:960px) {
+	.content{
+		padding: 0 3rem 0 3rem;
+	}
 }
