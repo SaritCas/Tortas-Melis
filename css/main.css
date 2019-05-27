@@ -34,3 +34,7 @@ body{
 	height: 100vh;
 	overflow: hidden; /*para no ver barra de scroll*/
 }
+.header-video video{
+	min-width: 100%;
+	min-height: 100%;
+}
