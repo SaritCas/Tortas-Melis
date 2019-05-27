@@ -7,7 +7,7 @@
 
 footer{
   width: 100%;
-  background-color: #202020;
+  background-color: #202020 ;/*#390202 */
   color: white;
 }
 
@@ -48,7 +48,7 @@ footer{
 }
 
 .row:hover{
-  background-color: #F3F3F3;
+  background-color: #F3F3F3;/*#F3F3F3*/
 }
 
 .row:hover p{
