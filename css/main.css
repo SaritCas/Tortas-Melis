@@ -45,4 +45,16 @@ body{
 	top:0;
 	left: 0;
 	background: #E7D1B6;
+	z-index: 1;
+	opacity: .85;
+}
+
+.header-content{/*capa contenido*/
+	z-index: 2;
+}
+
+.header-content h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	
 }
