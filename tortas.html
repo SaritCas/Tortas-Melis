@@ -19,22 +19,27 @@
         let baseDeDatos = [
             {
                 id: 1,
-                nombre: 'Patata',
+                nombre: 'Torta Francesa',//Patata
                 precio: 1
             },
             {
                 id: 2,
-                nombre: 'Cebolla',
+                nombre: 'Torta China',//Cebolla
                 precio: 1.2
             },
             {
                 id: 3,
-                nombre: 'Calabacin',
+                nombre: 'Torta Mexicana',//Calabacin
                 precio: 2.1
             },
             {
                 id: 4,
-                nombre: 'Fresas',
+                nombre: 'Torta Alemana',//Fresas
+                precio: 0.6
+            },
+            {
+                id: 5,
+                nombre: 'yey',//Fresas
                 precio: 0.6
             }
 
@@ -60,7 +65,7 @@
                 // Precio
                 let miNodoPrecio = document.createElement('p');
                 miNodoPrecio.classList.add('card-text');
-                miNodoPrecio.textContent = info['precio'] + '€';
+                miNodoPrecio.textContent = info['precio'] + '$';//'€'
                 // Boton
                 let miNodoBoton = document.createElement('button');
                 miNodoBoton.classList.add('btn', 'btn-primary');
@@ -97,7 +102,7 @@
                 // Creamos el nodo del item del carrito
                 let miNodo = document.createElement('li');
                 miNodo.classList.add('list-group-item', 'text-right');
-                miNodo.textContent = `${miItem[0]['nombre']} - ${miItem[0]['precio']}€`;
+                miNodo.textContent = `${miItem[0]['nombre']} - ${miItem[0]['precio']}$`;//€`
                 // Boton de borrar
                 let miBoton = document.createElement('button');
                 miBoton.classList.add('btn', 'btn-danger', 'mx-5');
@@ -166,7 +171,7 @@
                 <ul id="carrito" class="list-group"></ul>
                 <hr>
                 <!-- Precio total -->
-                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                <p class="text-right">Total:$S<span id="total"></span></p><!--&euro-->
             </aside>
         </div>
     </div>
